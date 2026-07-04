@@ -34,7 +34,3 @@ jobs:
       with:
         name: app-debug
         path: bin/*.apk
-- name: Setup Python
-  uses: actions/setup-python@v4
-  with:
-    python-version: '3.11'
